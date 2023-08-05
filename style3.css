@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #008080;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url("https://cdn2.storyasset.link/KuGrCZN9erQue83mxllM5IU0L1f2/Perivolas%20Hotel%20Infinity%20Pool-ms-eyxjmldmjs.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.hero h2 {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.hero p {
+  color: blue;	
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: #fff;
+  color: #008080;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #008080;
+  color: white;
+}
+ .features {
+	
+  text-align: center;
+  padding: 80px 0;
+}
+
+.features h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.features li {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.hero a{
+  text-decoration: none;
+  color: #008080;
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  
+}
+a:hover{
+  background-color: #008080;
+  color: white;
+}

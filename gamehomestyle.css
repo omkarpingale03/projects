@@ -1,0 +1,87 @@
+header {
+	background-color: #333;
+	color: #fff;
+	margin: 0;
+	
+}
+body {
+    background-image: url('memory5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+	margin: 0 ;
+	margin-top: 10px;
+
+}
+nav{
+	/* background-color: black; */
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}	
+nav ul {
+	list-style: none;
+	/* margin: 0;
+	padding: 0; */
+	display: flex;
+	text-align:start;
+	gap: 25px;
+}
+/* 
+nav li {
+	display: inline-block;
+	margin-right: 100px;
+	font-size: 50px;
+} */
+
+nav li a {
+	/* color: whitesmoke;
+	text-decoration: none;
+	font-size: 150%; */
+	position: relative;
+	display: inline-block;
+	font-size: 30px;
+	color: blueviolet;
+	text-decoration: none;
+}
+a::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	border-radius: 4px;
+	scale: 0 1;
+	transform-origin: right;
+	transition: scale 0.25s;
+}
+nav li a:hover::before{
+	scale: 1;
+	transform-origin: left;
+}
+h1{
+	color:white;
+	font-size: 75px;
+}
+p{
+	color:pink ;
+	font-size: 30px;
+}
+
+.play-btn {
+	display: inline-block;
+	background-color: #f44336;
+	color: #fff;
+	padding: 10px 10px;
+	border-radius: 15px;
+	text-decoration: none;
+	margin-top: 20px;
+	margin-left:20px;
+	font-size:30px;
+	box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.25);
+}
+.play-btn:hover{
+	color: #f44336;
+	background-color: #fff;
+}

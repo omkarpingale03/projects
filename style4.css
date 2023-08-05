@@ -1,0 +1,40 @@
+*{
+    text-align: center;
+    margin: 0;
+    font-family: 'Merriweather',serif;
+}
+h1{
+    margin: 0;
+    font-family:'merriweather',cursive;
+    font-size: 250%;
+    overflow: hidden;
+}
+p{
+    margin: 0;
+    font-family:fantasy;
+    font-size: 150%;
+
+}
+.moon img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 10px;
+    left: 130px;
+}
+.mountain img{
+    position: relative;
+    top: 13px;
+    
+}
+.profile{
+    position: relative;
+    top: 20%;
+}
+.middle-container {
+    background-color:black;
+    color: aquamarine;
+}
+.bottom-container{
+    
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Memory Matching Game</title>
+	<link rel="stylesheet" type="text/css" href="style_prac.css">
+</head>
+<body>
+	<h1>Memory Matching Game</h1>
+	<div class="game-container">
+		<div class="grid-container">
+			<div class="grid-item" data-value="1"></div>
+			<div class="grid-item" data-value="1"></div>
+			<div class="grid-item" data-value="2"></div>
+			<div class="grid-item" data-value="2"></div>
+			<div class="grid-item" data-value="3"></div>
+			<div class="grid-item" data-value="3"></div>
+			<div class="grid-item" data-value="4"></div>
+			<div class="grid-item" data-value="4"></div>
+			<div class="grid-item" data-value="5"></div>
+			<div class="grid-item" data-value="5"></div>
+			<div class="grid-item" data-value="6"></div>
+			<div class="grid-item" data-value="6"></div>
+			<div class="grid-item" data-value="7"></div>
+			<div class="grid-item" data-value="7"></div>
+			<div class="grid-item" data-value="8"></div>
+			<div class="grid-item" data-value="8"></div>
+		</div>
+		<button id="reset-btn">Reset Game</button>
+	</div>
+
+	<script>
+		// Select all grid items
+const gridItems = document.querySelectorAll('.grid-item');
+
+// Set initial values for game state
+let firstCard = null;
+let secondCard = null;
+let hasFlippedCard = false;
+let lockBoard = false;
+let matches = 0;
+
+// Add click event listeners to grid items
+gridItems.forEach((item) => {
+	item.addEventListener('click', flipCard);
+});
+
+// Function to flip a card
+function flipCard() {
+	// Return if user clicks on a matched card or if the
+
+	</script>
+</body>
+</html>

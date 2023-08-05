@@ -1,0 +1,28 @@
+*{
+    background-color: aquamarine;
+    font-size: large;
+}
+form,pre{
+    font-size: larger;
+    font-family:'Times New Roman';
+    background-color: aliceblue;
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(62, 60, 232);
+    padding: 2px;
+    
+    
+}
+nav{
+    text-align: center;
+    background-color:aquamarine ;
+  
+}
+nav a:hover{
+    color: black;
+    background-color:coral;
+    padding: 4px;
+}
